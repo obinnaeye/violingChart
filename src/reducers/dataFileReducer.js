@@ -3,10 +3,10 @@ import {
 } from '../constants/action-types'
 
 import {
-  DATASET_2
+  PTSD
 } from '../constants/configuration-constants'
 
-const dataFileReducer = (state = DATASET_2, action) => {
+const dataFileReducer = (state = PTSD, action) => {
   switch (action.type) {
     case SET_DATA_FILE:
       return action.data

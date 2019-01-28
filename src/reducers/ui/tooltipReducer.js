@@ -22,8 +22,3 @@ const tooltipReducer = (state = false, action) => {
 }
 
 export default tooltipReducer
-
-
-
-// WEBPACK FOOTER //
-// ./src/reducers/ui/tooltipReducer.js

@@ -207,7 +207,7 @@ const colors = {
 }
 
 const dataFiles = [
-  'bigdata.csv', 'data.csv', 'dataset2.csv', 'observations-1.csv', 'observations-2.csv'
+  'ptsd.csv', 'bigdata.csv'
 ]
 
 // Configuration

@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux'
 import { hideTooltip } from '../actions/uiActions'
 import getRowGroupedTimeseries from '../selectors/getRowGroupedTimeseries'
 
-import '../stylesheets/tooltip.scss'
+import '../stylesheets/src/stylesheets/tooltip.scss'
 
 const Tooltip = ({ x, y, onDisband, groupData }) => {
   const { group, count } = groupData

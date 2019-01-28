@@ -21,17 +21,12 @@ export const PLOT_METHODS = [
 
 // Data files
 // export const DATASET_1 = 'bigdata.csv'
-export const DATASET_1 = 'data.csv'
+export const PTSD = 'ptsd.csv'
 export const DATASET_1 = 'bigdata.csv'
-export const DATASET_2 = 'dataset2.csv'
-export const OBSERVATIONS_1 = 'observations-1.csv'
-export const OBSERVATIONS_2 = 'observations-2.csv'
 
 export const DATA_FILES = [
   DATASET_1,
-  DATASET_2,
-  OBSERVATIONS_1,
-  OBSERVATIONS_2
+  PTSD
 ]
 
 

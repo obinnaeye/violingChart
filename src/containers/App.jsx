@@ -8,7 +8,8 @@ import { fetchTimeseries as unboundFetchTimeseries } from '../actions/timeseries
 import HeatMapContainer from './HeatMapContainer'
 import ConfigurationPanel from './ConfigurationPanel'
 import LoadingSpinner from '../components/LoadingSpinner.jsx'
-import Tooltip from '../stylesheets/src/stylesheets/app.scss'
+import '../stylesheets/src/stylesheets/app.scss'
+import Tooltip from '../components/ToolTip'
 
 class App extends React.Component {
   componentDidMount() {

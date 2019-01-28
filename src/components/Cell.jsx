@@ -14,6 +14,7 @@ const Cell = ({ colorScales, value, utcOffset, rowIndex, columnIndex, size, gutt
   const color = colorScales[utcOffset].scale(value)
 
   const handleClick = (event) => {
+    console.log(showTooltip)
     showTooltip({
       x: event.pageX,
       y: event.pageY,
@@ -68,6 +69,3 @@ const mapDispatchToProps = dispatch => bindActionCreators({
 export default connect(mapStateToProps, mapDispatchToProps)(Cell)
 
 
-
-// WEBPACK FOOTER //
-// ./src/components/Cell.jsx
